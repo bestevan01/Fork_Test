@@ -11,10 +11,10 @@ public class Hello {
 	public void print(String name) {
 		System.out.println("Hello, " + name);
 	}
-	
+	// 진입 메서드
 	public static void main(String[] args) {
 		Hello hello = new Hello();// new 키워드를 사용해 객체 생성
-		hello.print("Java");		
+		hello.print("Java!");		
 	}
 
 }
